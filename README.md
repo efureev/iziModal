@@ -1,6 +1,8 @@
 # [iziModal](http://izimodal.dolce.ninja)
 Elegant, responsive, flexible and lightweight modal plugin with jQuery.
 
+[![GitHub version](https://badge.fury.io/gh/efureev%2FiziModal.svg)](https://badge.fury.io/gh/efureev%2FiziModal) [![Dependency Status](https://gemnasium.com/badges/github.com/efureev/iziModal.svg)](https://gemnasium.com/github.com/efureev/iziModal) ![](https://reposs.herokuapp.com/?path=efureev/iziModal)
+
 [**izimodal**.marcelodolce.com](http://izimodal.marcelodolce.com)
 
 ![capa](http://i.imgur.com/TPdnES8.png)
