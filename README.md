@@ -23,22 +23,29 @@ Fast | Responsive | Animated | Lightweight | Customizable | History | Group Mode
 ___
 ### Version Log
 
+- **v1.3.5**
+  - ![][new] `setAttached` Set modal position: `bottom`|`top` - *Implemented.*
+
+
 - **v1.3.4**
   - ![][new] `setContent` Set new window content - *Implemented.*
-  - ![][new] `getContent` Put current window content - *Implemented.*
   
+
 - **v1.3.3**
   - ![alt text][new] Text icons support (option, data-attr and set method)  - *Implemented.*
   - ![alt text][bug] History was always active on mobile - *Fixed.*
   - ![alt text][bug] It was not possible to instantiate multiple modals at once - *Fixed.*
 
+
 - **v1.3.2**
   - ![alt text][new] setGroup to set new group name - *Implemented.*
   - ![alt text][bug] group option work in some cases - *Fixed.*
 
+
 - **v1.3.1**
   - ![alt text][bug] iframe URL (by event like click) not work with append childs - *Fixed.*
   - ![alt text][bug] Widths with percentage does not work - *Fixed.*
+
 
 - **v1.3.0**
   - ![alt text][new] History support - *Implemented.*
@@ -65,9 +72,11 @@ ___
   - ![alt text][new] Retina display support - *Implemented.*
   - ![alt text][bug] Callbacks had no access to modal functions - *Fixed.*
 
+
 - **v1.1.0**
   - ![alt text][new] feature to apply fullscreen - *Implemented.*
   - ![alt text][new] timeout feature with progress bar - *Implemented.*
+
 
 - **v1.0.1**
   - ![alt text][bug] overlayClose only works the first time - *Fixed.*
