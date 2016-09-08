@@ -399,6 +399,16 @@ $('#modal').iziModal('setSubtitle', 'Subtitle');
 $('#modal').iziModal('setIcon', 'icon-home');
 ```
 
+- **setContent** - Change the content
+```javascript
+$('#modal').iziModal('setContent', '<p>P1</p><p>...</p>');
+```
+
+- **getContent** - Put the content
+```javascript
+var content = $('#modal').iziModal('getContent');
+```
+
 - **setIconText** - Change the text of font icon.
 ```javascript
 $('#modal').iziModal('setIconText', 'icon');
@@ -419,6 +429,12 @@ $('#modal').iziModal('setTransitionIn', 'comingIn');
 ```javascript
 $('#modal').iziModal('setTransitionOut', 'comingOut');
 // comingOut, bounceOutDown, bounceOutUp, fadeOutDown, fadeOutUp, , fadeOutLeft, fadeOutRight, flipOutX
+```
+
+- **setAttached** - Change the position of Modal window.
+```javascript
+$('#modal').iziModal('setAttached', 'top');
+// 'top', 'bottom', null
 ```
 
 - **recalculateLayout** - Used to recalculate the placement and dimensions of the modal layout.
