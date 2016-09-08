@@ -21,6 +21,10 @@ Fast | Responsive | Animated | Lightweight | Customizable | History | Group Mode
 ___
 ### Version Log
 
+- **v1.3.4**
+  - ![][new] `setContent` Set new window content - *Implemented.*
+  - ![][new] `getContent` Put current window content - *Implemented.*
+  
 - **v1.3.3**
   - ![alt text][new] Text icons support (option, data-attr and set method)  - *Implemented.*
   - ![alt text][bug] History was always active on mobile - *Fixed.*

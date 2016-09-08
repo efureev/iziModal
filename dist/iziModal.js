@@ -251,7 +251,7 @@
 			var that = this;
 
 			function opened(){
-			    
+
 			    // console.info('[ '+PLUGIN_NAME+' | '+that.id+' ] Opened.');
 
 				that.state = STATES.OPENED;
@@ -333,7 +333,8 @@
 					try {
 						href = $(param.currentTarget).attr('href') !== "" ? $(param.currentTarget).attr('href') : null;
 					} catch(e) {
-						console.warn(e);
+					    throw new Error(e);
+						// console.warn(e);
 					}
 					if( (this.options.iframeURL !== null) && (href === null || href === undefined)){
 						href = this.options.iframeURL;
@@ -717,6 +718,10 @@
 			return this.group;
 		},
 
+        getContent: function(){
+            return this.content;
+        },
+
 		setTitle: function(title){
 
 			if (this.options.title !== null) {
@@ -734,9 +739,6 @@
 		},
 
 		setIcon: function(icon){
-
-			console.log(this.$header.find('.'+PLUGIN_NAME+'-header-icon').length);
-
 			if( this.$header.find('.'+PLUGIN_NAME+'-header-icon').length === 0 ){
 				this.$header.prepend('<i class="'+PLUGIN_NAME+'-header-icon"></i>');
 			}
@@ -749,6 +751,11 @@
 			this.$header.find('.'+PLUGIN_NAME+'-header-icon').html(iconText);
 			this.options.iconText = iconText;
 		},
+
+        setContent: function(html){
+            this.$element.find('.'+PLUGIN_NAME+'-content').html(html);
+            this.content = html;
+        },
 
 		setHeaderColor: function(headerColor){
 
