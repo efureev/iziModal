@@ -137,8 +137,8 @@
 .iziModal .iziModal-header-icon {
     font-size: 40px;
     color: rgba(255, 255, 255, 0.5);
-    padding: 0 15px 0 0;
-    margin: 0;
+    padding: 0;
+    margin: 0 15px 0 0;
     float: left;
 }
 
@@ -172,7 +172,8 @@
 
 .iziModal .iziModal-header.iziModal-noSubtitle .iziModal-header-icon {
     font-size: 23px;
-    padding-right: 13px;
+    margin-right: 13px;
+    padding: 0;
 }
 
 .iziModal .iziModal-header.iziModal-noSubtitle .iziModal-header-title {

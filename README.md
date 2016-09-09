@@ -24,6 +24,7 @@ ___
 ### Version Log
 
 - **v1.3.5**
+  - ![][bug] Fix css style - *Fixed.*
   - ![][new] `setAttached` Set modal position: `bottom`|`top` - *Implemented.*
 
 

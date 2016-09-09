@@ -749,7 +749,7 @@
             this.content = html;
         },
 
-        setAttached: function(position){
+        setAttached: function (position) {
 
             this.options.attached = position;
             this.$element.removeClass('isAttachedTop isAttachedBottom');
